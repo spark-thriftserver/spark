@@ -21,7 +21,6 @@ import java.util.Locale
 import javax.servlet.http.HttpServletRequest
 
 import org.mockito.Mockito.{mock, when, RETURNS_SMART_NULLS}
-import org.scalatest.Ignore
 
 import org.apache.spark.SparkFunSuite
 import org.apache.spark.scheduler.SparkListenerJobStart
@@ -29,7 +28,6 @@ import org.apache.spark.sql.hive.thriftserver.HiveThriftServer2
 import org.apache.spark.sql.hive.thriftserver.HiveThriftServer2.HiveThriftServer2Listener
 import org.apache.spark.sql.internal.SQLConf
 
-@Ignore
 class ThriftServerPageSuite extends SparkFunSuite {
 
   /**
